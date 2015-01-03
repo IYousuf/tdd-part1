@@ -31,4 +31,8 @@ class Money {
 	Money times(int multiplier) {
 		return new Money(amount * multiplier, currency);
 	}
+	
+	public String toString() {
+		return amount + " " + currency;
+	}
 }
